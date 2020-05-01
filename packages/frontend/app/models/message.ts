@@ -55,7 +55,7 @@ export enum TYPE {
   DISCONNECT = 'disconnect',
   DELIVERY_CONFIRMATION = 'delivery-confirmation',
   INFO_CHANNEL_SYNC = 'info-channel-sync',
-  CHANNEL_VOTE = 'channtel-vote',
+  CHANNEL_VOTE = 'channel-vote',
 }
 
 export enum TARGET {
