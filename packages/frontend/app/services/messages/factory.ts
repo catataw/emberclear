@@ -20,7 +20,7 @@ export default class MessageFactory extends Service {
       attributes = { target: TARGET.WHISPER, to: to.uid };
     } else if (to instanceof Channel) {
       attributes = {
-        traget: TARGET.CHANNEL,
+        target: TARGET.CHANNEL,
         to: to.id,
         // TODO: serialize channel info
       };
